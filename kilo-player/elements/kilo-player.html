@@ -1,0 +1,22 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="kilo-player" attributes="src width height">
+  <template>
+	 <div class="kiloWrapper" style="max-width:{{width}};">
+	 	<div style="position: relative; padding-bottom:{{height}}; overflow: hidden;">
+	 		<iframe src="{{url}}{{src}}" frameborder="0" scrolling="no" style="position: absolute; width: 100%; height: 100%;"></iframe>
+	 	</div>
+	 </div>
+  </template>
+  <script>
+    Polymer('kilo-player', {
+      // These default values are overridden
+      // by the user's attribute values.
+      src: "90cf4bf0977af95dfa7362a4162de7c0",
+      url: "//public.kilo-app.com/embed/",
+      ready: function() {
+        //this.$.el.textContent = this.src + " is ready!";
+      }
+    });
+  </script>
+</polymer-element>
