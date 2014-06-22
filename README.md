@@ -23,7 +23,7 @@ Go to http://public.kilo-app.com and select the clip you want to use.
 On the player page you can click on the _embed_ to get the iframe based embed code.
 
 replace {{SRC}} by the latest segment of the url ex.90cf4bf0977af95dfa7362a4162de7c0 this is the id of the clip you want to embed.
-replace {{WIDTH}} by the _max-width_ value in pixels ex.480px.
+replace {{WIDTH}} by the _max-width_ value in pixels ex.480px
 replace {{HEIGHT}} by the _padding-bottom_ ex.133.33333333333331%
 
 This following line
